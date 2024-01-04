@@ -131,3 +131,53 @@ for(count=1;count<10;count=count+2){
 for(count=10;count>=1;count=count-1){
     console.log(count)
 }
+
+let arr=[3,7,8,9]
+console.log(arr)
+var g=["thiru","vishnu","Banu","Ravi"]
+console.log(g)
+
+console.log(arr.length)
+console.log(g.length)
+
+console.log(arr[0])
+console.log(g[2])
+var b=[[7,8,9],[5,4,3]]
+var y=b.flat;
+console.log([0][1])
+
+console.log(y)
+g.push("Neela")
+console.log(g)
+g.pop("Neela")
+console.log(g)
+console.log(g.shift())
+console.log(g)
+console.log(g.unshift("thiru"))
+console.log(g)
+
+arr.splice(1,0,9)
+console.log(arr)
+g.splice(1,0,"NeelA")//first index indicates add and second index indicates removing index
+console.log(g)
+g.splice(1,1,"V")
+console.log(g)
+arr.slice(1) //prints the array from the starting index
+console.log(arr)
+arr.slice(0,2)
+console.log(arr)
+arr.reverse()
+console.log(arr)
+
+let vrr=['u','s']
+vrr[0]='t'//replace
+console.log(vrr);
+// console.log(vrr)
+// vrr.join("*")
+
+vrr[vrr.length]="r" //adding
+console.log(vrr)
+
+var girls=["Thiru","Vaish"];
+var boys=["Varun","Venus"];
+var mychildren=girls.concat(boys);
