@@ -1,0 +1,24 @@
+<p id="hello">One</p>
+<script>
+    // console.log(document.getElementById("hello"))
+    var para=document.getElementById("hello")
+    console.log(para.textContent) //for printing
+    para.textContent="Bye" //for replacing
+</script>
+<h1 id="h1">Condition</h1> -->
+<script>
+    var head=document.getElementById("h1")
+console.log(head.textContent)
+head.textContent="Average"
+</script>
+
+<h1 id="thiri">Helloworld</h1>
+<button onclick="change()">Change</button>
+<script>
+    var variable=document.getElementById("thiri")
+console.log(variable.textContent)
+function change(){
+    variable.textContent="Bye world"
+}
+
+</script>

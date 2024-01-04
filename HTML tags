@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<h2>doctype html tag</h2>
+<h3>It should start with this Tag</h3>
+<h2>html tag</h2>
+<h3>Represents the root of the HTML document</h3>
+<html>
+
+<head>
+
+<title>RK Tuition Center</title>
+<h1>Header Tag</h1>
+<h2>Header tag is used for giving headings with different size starts from h1 to h6</h>
+<h3>Join us,achieve more!</h3>
+<h4>Dream big,Achieve high!</h4>
+<h5>Location:10,Pandara Muthian Street,Pudupet,Gudiyatham</h5>
+<h6>Near Pillayar Temple</h6>
+
+</head>
+<body>
+    <h2>Body Tag</h2>
+    <h3>Body tag is used for the writing whole body content inside this body tag</h3>
+<h2>Cite tag</h2>
+<h3>Cite tag defines the Creative work ,usually printed in Italics</h3>
+<cite><h1>The cite element</h1>
+    <img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+    <p> Cite given by Edward Munch. Painted in 1893.</p>
+    </cite>
+<h2>Paragraph Tag</h2>
+<h3>Paragraph tag is used to write paragraph inside the tag</h3>
+<p>Teachers are giving their best to mould the Students.Morning and Evening slots are provided</p>
+<h2>Canvas tag</h2>
+<h3>Canvas tag is used for the Graphics</h3>
+<canvas id="myCanvas" width="899" height="943" style="border:1px solid blue"></canvas>
+
+
+<canvas></canvas>
+<h2>audio tag</h2>
+<h3>Audio tag used for embedded audio content or online audio plarforms</h3>
+<audio controls>https://r.search.yahoo.com/_ylt=Awrx_nUuSXll5goMJQK7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1702476207/RO=10/RU=https%3a%2f%2fokmusi.com%2furl-to-mp3%2f/RK=2/RS=AVkN4Pb4wNaVmo1Hhicp5tiFv5M-</audio>
+<h2>Link address</h2>
+<h3>Link one with the other page</h3>
+<a href="https://angular.io/guide/two-way-binding"></a>
+<h3>Break tag</h3>
+<h4>To break the single line,br tag is used</h4>
+<br></br>
+<h2>Article tag</h2>
+<h3>Article tag is used for self contained content </h3>
+<article >Google chrome</article>
+<p>Google chrome is best platform for connecting with people,searching etc.,</p>
+<h2>Aside tag</h2>
+<h3>Aside tag is used for writing the content indirectly related to the content</h3>
+<aside>Tuition is available all around the Gudiyatham</aside>
+<h2>Abbreivation tag</h2>
+<h3>abbr tag is used for  abbreivation content</h3>
+<abbr>HTML-Hyper Text Markup Language</abbr>
+<h2>bdi tag</h2>
+<h3>Used to isolate the user Name</h3>
+<p>Tanushree.M.Sc.,(Maths)<bdi>Ramesh Babu.P.M.Phil(Physics),Pandara Muthian Street,Gudiyatham</bdi></p>
+<br></br>
+<h2>Address Tag</h2>
+<h3>Address tag is for mentioning the author of the page</h3>
+<address>Tim Cook</address>
+<br></br>
+<h2>Bold tag</h2>
+<h3>B tag is used for Bold letter Words </h3>
+<b>Continue</b>
+<br></br>
+<h2>Button tag</h2>
+<h3>Used to create button with button tag</h3>
+<button>Home</button><br></br>
+<h2>Code tag</h2>
+<h3>Code tag is used for mentioing any code in the page</h3>
+<code>System.out.println("Hello World")</code>
+<h2>Word break tag</h2>
+<h3>wbr tag used for the neccesary word break needed in the page</h3>
+<wbr></wbr>
+<h2>Main tag</h2>
+<h3>Main tag used for the main content of the page</h3>
+<main>Fees Structure depends on the Class</main>
+<h2>Option tag </h2>
+<h3>Option tag with select and option tag gives the drop down of it's option</h3>
+<select>
+    <option>
+        Morning
+    </option>
+    <option>
+Evening
+    </option>
+</select>
+<h2>bdo tag</h2>
+<h3>It changes the position of the letters as Left-Right to Right-Left</h3>
+<bdo><u> Come Soon and join us</u></bdo>
+<h2>Ordered list tag</h2>
+<h3>Ordered List is used for listing the values with the li tag</h3>
+    <ol>
+        <h2>Data tag</h2>
+        <h3>data tag is used for machine readable translation fo</h3>
+        
+   <li><data>Class 1 to 5-1000</data></li>
+   <li><data>Class 6 to 9-1500</data></li> 
+   <li><data>Class 10-2000</data></li> 
+    <li><data>Class 11,12-3000(For each Subject)</data></li></ol>
+    <h2>Div tag</h2>
+<h3>Div tag is used for the division </h3>    
+<div></div>
+<h2>Dialog Tag</h2>
+<h3>Dialog tag defines a dialog box</h3>
+<dialog open>Open the document</dialog>
+<br></br>
+<h2>Defintion tag </h2>
+<h3>Used for adding defintion element,that term will be defined in that content</h3>
+<p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+
+<h2>Description list </h2>
+<h3>Description list with terms and name  with dd and dt tag</h3>
+<dl>
+    <h2>Description terms </h2>
+    <h3>Description terms is comjunction with dl and dd</h3>
+    <dt>Coffee</dt>
+    <dd>With Brown sugar</dd>
+    <dt>Green Tea</dt>
+    <dd>With Honey</dd>
+
+</dl>
+<h2>Embedded content</h2>
+<h3>Embedded it may be text,image or video</h3>
+<h4>Figcaption tag</h4>
+<h5>Figcaption tag for giving figure caption to the picture </h5>
+<embed type="image/jpeg" src="Monkey.jpeg" width="90" height="87"> </embed>
+<figcaption>Monkey image.jpeg found in All over world</figcaption>
+<br></br>
+<h2>Fieldset tag</h2>
+
+
+<h3>Fieldeset tag is used to group of related form in a tag</h3>
+
+<fieldset>
+    <h2>Legend tag </h2>
+    <h3>Legend tag is used for giving heading for the fieldset</h3>
+<h4>label tag is used for the Name of dialog box in the fieldset</h4>
+<h5>Input tag is used for the credentials input type</h5>
+    <legend>Login </legend>
+    <form>
+    <label>FirstName:</label>
+    <input type="text" id="fname" name="fname"><br></br>
+    <label>LastName:</label>
+    <input type="text" id="Lname" name="Lname"><br></br>
+    <label>Email id:</label>
+    <input type="text" id="emailid" name="emailid"><br></br>
+    <label>Birthday:</label>
+    <input type=:"date" id="birthday" name="birthday">
+    <input type="submit" value="Submit">
+</form>
+
+
+</fieldset>
+<h2>Emphasized text</h2>
+<h3>It prints the particular text with Different Style-italic</h3>
+<p>No confusion only best work<em>here</em></p>
+<h2>Delete tag</h2>
+<h3>Delete tag is shown in form of striked line which is deleted before</h3>
+<p> The place is near <del>Amman Temple</del><ins>Pillayar Temple</ins>!  </p>
+<h2>detail tag</h2>
+<h3>Detail tag is for adding additional information</h3>
+<detail><summary>We are doing this work since 2009.We have students learn more with</summary></detail>
+<h2> Area tag</h2>
+<h3>Area tag used to mention the Area inside the google map </h3>
+<area https://www.google.com/maps/dir/12.9755397,80.2206438/F2,+Naviya,+MSVS+Tution+Center,+Sarathi+Apartment,+Manohar+Nagar+3rd+St,+Pallikaranai,+Chennai,+Tamil+Nadu+600100/@12.9550149,80.1920916,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a525d5ce572b129:0x6a530eb3b16d5640!2m2!1d80.2085885!2d12.9355422></area>
+
+<h2> table tag</h2>
+<h3>Table tag is used for making tables with the td,th,tr tag</h3>
+<h2>Styling tag </h2>
+<h3>For giving different colours,styling tag is used</h3>
+<style>table,th,tr,td{border: 1px solid pink;}</style>
+<table>
+    <h2>Column tag</h2>
+    <h3>Gives the background colour for the column</h3>
+    <h4>Column Group tag is used to style whole box in one colour</h4>
+    <colgroup>
+
+        <col span="2" style="background-color:red">
+        
+      </colgroup>
+    
+<h2>table row tag</h2>
+    <h3> tr tag is used for the table row</h3>
+  <caption style="text-align:left">Classes and Timing</caption>
+
+    <tr>
+    <h2>table head tag</h2>
+    <h3>Table head tag is used for writing the header for the table</h3>
+
+        <th>Timing</th>
+        <th>Classes</th>
+        </tr>
+    
+<tr>
+    <h2>table data tag</h2>
+    <h3>Table data is given here</h3>
+    <td>Morning 6.30-8.00 am </td>
+    <td>Class 8,9,10,11,12</td>
+
+
+</tr>    
+<tr>
+    <td>Evening 6-7.30 pm-</td>
+    <td>Class 1,2,3,4,5,6,7</td>
+
+</tr>    
+</table>
+<h2>iframe tag</h2>
+<h3>iframe tag is used to embed another document in current HTML document</h3>
+<iframe src="https://www.w3schools.com"></iframe>
+
+<h2>Video tag</h2>
+<h3>Video tag is used for adding video content in the page</h3>
+<video controls>https://www.youtube.com/watch?v=VEJSlxJKh20</video>
+<h2>Dialog box with Input and label</h2>
+<h3>Input with size tag</h3>
+<h4>Setting digit size in a text format</h4>
+<label>Name:</label>
+<input type="text" size="6"><br></br>
+
+<label>Date of birth:</label>
+<input type="date"><br></br>
+<label>Aadhar card</label>
+<input type="number" size="14"><br></br>
+<h2>Password with size</h2>
+
+<h3>Password with size limit of maxlength of characters and the size of box</h3>
+<label>Password </label>
+
+<input type="text" maxlength="3" size="7"><br></br>
+<h2>Special code with min and max with characters</h2>
+<label>Special code</label>
+<input type="number" min="1" max="10"><br></br>
+<label>Brightness Range </label>
+<input type="range"><br></br>
+
+<h2>Meter tag</h2>
+<h3>Used to mention the Meter from how much to how much</h3>
+<label >Disk usage C:</label>
+<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+<label >Disk usage C:</label>
+<meter id="disk_d" value="9" min="0" max="10">9 out of 10</meter><br>
+
+<br></br>
+<h2>Figure tag</h2>
+<h3>Figure tag is used for that content which shows that it is in picture category-photo,diagrams</h3>
+<figure>
+
+<h2>Footer</h2>
+<h3>Footer data will be in footer place which consists of Copyright info,Contact details</h3>
+<footer>
+<h2>Underline Tag</h2>
+<h3>It underlines the concerned Line</h3>
+
+<u>Contact Number-9898989898</u>
+
+<h2>S tag</h2>
+<h3>Used for the Content that is not true</h3>
+<s>Thank you</s>
+<h2>Small tag</h2>
+<h3>Small tag is used for Letters to be in Small size</h3>
+<small></small>
+<h2>Quotation tag</h2>
+
+<h3>Quotation tag used for writing short Quotation</h3>
+<q>Meet us in Kavalur</q>
+</footer>
+</body>
+</html>

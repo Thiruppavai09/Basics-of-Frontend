@@ -1,0 +1,133 @@
+let a=10;
+console.log(a)
+var b
+console.log(b)
+// const c=9;
+// c=10;
+// console.log(c)
+// var v=10;
+var v=10;
+v++
+console.log(v)
+var s=9;
+s--
+console.log(s)
+let m=9;
+d=m++
+console.log(d)
+let n=9;
+h=--n
+console.log(h)
+console.log(typeof(10))
+console.log(typeof("Stir"))
+var k=10;
+    var x=10;
+function add(){
+    console.log(k+x);
+
+}
+add()
+var factor="Vj"
+var fplayer="Dhoni"
+var fmovie="Anbe Sivam"
+function fav(){
+    console.log("Fav actor:"+factor);
+    console.log("Fav player:"+fplayer);
+    console.log("Fav movie:"+fmovie);
+}
+fav()
+
+function sub(a,b){
+    console.log(a-b)
+
+}
+sub(10,8)
+function multiply(a,b){
+    console.log(a*b)
+
+}
+multiply(10,8)
+
+function myname(){
+    return "Jammy"
+}
+var p=myname()
+console.log(p)
+
+if(false){
+    console.log("This printed")
+}
+
+if(true){
+    console.log("This true")
+}
+var rain=false
+if(rain){
+    console.log("Take an Umbrella")
+}
+else{
+    console.log("Enjoy the sunshine")
+}
+
+console.log(true && true && false)
+console.log(true || true || false)
+console.log(!true)
+
+
+var color="green"
+if(color=="red"){
+    console.log("Stop")
+}
+if(color=="Green"){
+    console.log("Go")
+}
+if(color== "Yellow"){
+    console.log("Get Ready")
+}
+
+// var color="Red"
+// if(color=="Red"){
+//     console.log("Stop")
+// }
+// if(color=="Green"){
+//     console.log("Go")
+// }
+// if(color=="Yellow"){
+//     console.log("Get Ready")
+// }
+// var season="Summer"
+// if(season=="Summer"){
+//     console.log("Enjoy")
+    
+// }
+// if(season=="Winter"){
+//     console.log("Wear SweatShirts")
+// }
+// if(season=="Rainy"){
+//     console.log("Wear Raincoats")
+// }
+var value=90;
+if(value<=50){
+    console.log("Need to improve")
+    
+}
+if(value>50 && value<=70){
+    console.log("Good job")
+    
+}
+if(value>70){
+    console.log("Great")
+}
+for(count=1;count<=5;count++){
+    console.log("Anbu")
+}
+
+for(count=2;count<=10;count=count+2){
+    console.log(count)
+}
+for(count=1;count<10;count=count+2){
+    console.log(count)
+}
+for(count=10;count>=1;count=count-1){
+    console.log(count)
+}

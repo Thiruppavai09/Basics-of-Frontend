@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+<link rel="stylesheet" href="file.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+</head>
+<body>
+  <h1>My First CSS Example</h1>
+  <h2>Conditions Apply</h2>
+  <h3>Spaces possbile here</h3>
+  <h4>Continue with your mail id</h4>
+<h2>Different borders in box</h2>
+  <p class="dotted">==dotted border.</p>
+<p class="dashed">==dashed border.</p>
+<p class="solid">==solid border.</p>
+<p class="double">==double border.</p>
+<p class="groove">==groove border.</p>
+<p class="ridge">== ridge border.</p>
+<p class="inset">== inset border.</p>
+<p class="outset">==outset border.</p>
+<p class="none">==No border.</p>
+<p class="hidden">==hidden border.</p>
+<p class="mix">== mixed border.</p>
+<h2>To use specific id hash is used</h2>
+<p id="para1">Hello world</p>
+
+<h2></h2>
+<p class="one">Texted here1.</p>
+<p class="two">Texted here2.</p>
+<p class="three">Texted here3.</p>
+
+<p>This signfies it </p>
+<h1 style="border: 2px solid Tomato;">Tamilnadu</h1>
+
+<h2 style="border: 2px solid DodgerBlue;">Chennai</h1>
+
+<h3 style="border: 2px solid Violet;">Hello World</h1>
+
+
+<h1>Specify colors using RGB values</h1>
+
+<h2 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h2>
+<h3 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h3>
+<h4 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h4>
+<h5 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h5>
+<h6 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h6>
+
+
+<h1>Make transparent colors with RGBA-opacity</h1>
+
+<h2 style="background-color:rgba(255, 99, 71, 0);">rgba(255, 99, 71, 0)</h2>
+<h3 style="background-color:rgba(255, 99, 71, 0.2);">rgba(255, 99, 71, 0.2)</h3>
+<h4 style="background-color:rgba(255, 99, 71, 0.4);">rgba(255, 99, 71, 0.4)</h4>
+<h5 style="background-color:rgba(255, 99, 71, 0.6);">rgba(255, 99, 71, 0.6)</h5>
+<h6 style="background-color:rgba(255, 99, 71, 0.8);">rgba(255, 99, 71, 0.8)</h6>
+
+
+<h1>Specify colors using HEX values</h1>
+
+<h2 style="background-color:#ff0000;">#ff0000</h2>
+<h3 style="background-color:#0000ff;">#0000ff</h3>
+<h4 style="background-color:#3cb371;">#3cb371</h4>
+<h5 style="background-color:#ee82ee;">#ee82ee</h5>
+<h6 style="background-color:#ffa500;">#ffa500</h6>
+
+<h2>Border with colour</h2>
+<p class="four">Paragraph with solid red border </p>
+<p class="five">Paragraph with solid blue colour</p>
+<p class="six">Paragraph with solid colour of all combination</p>
+<p class="seven">Paragraph with grey colour</p>
+
+
+<h2>The border-color Property</h2>
+<p class="eight">The color of the border can also be specified using RGB values:</p>
+
+<p class="nine">A solid red border</p>
+<p class="ten">A solid blue border</p>
+<p class="eleven">A solid grey border</p>
+<h2>Border with different types of styles for individual sides </h2>
+<p>Bordered solid with different sides</p>
+<h2>Border with different styles</h2>
+<p class="twelve">One different style</p>
+<p class="thirteen">one different style</p>
+<p class="fourteen">Two different styles</p>
+<h2>Border property</h2>
+<p class="fifteen">Border property with thickness and colour</p>
+<h2>Using individual margin propeties</h2>
+<p>Margin with border of peach with margin top of 100 px ,margin bottom of 899 px,margin right of 99 px,margin top of 89 px</p>
+
+<h2>Use of margin: auto</h2>
+<p>You can set the margin property to auto to horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split equally between the left and right margins:</p>
+<div class="border">
+  Border with different pixels of all sides
+</div>
+<div class="auto">
+This div will be horizontally centered because it has margin: auto;
+</div>
+<h2>Use of the inherit value</h2>
+<p>Let the left margin be inherited from the parent element:</p>
+
+<div class="margin">
+<p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+</div>
+
+  <h2>Using individual padding properties</h2>
+
+<div class="padding">This div element has a top padding of 40px, a right padding of 20px, a bottom padding of 30px, and a left padding of 10px.</div>
+<div class="padding1">This div element has all four sides as the same pixel</div>
+
+</body>
+</html>
+
+
+ 
